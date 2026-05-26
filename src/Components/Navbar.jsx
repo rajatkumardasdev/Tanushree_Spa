@@ -43,7 +43,7 @@ function Navbar() {
           className="navbar-brand logo"
           onClick={closeMenu}
         >
-          Ayurvedic Spa
+          Tanushree Spa
         </Link>
 
         {/* Toggle */}
@@ -97,13 +97,13 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              {/* <Link
-                to="/gallery"
+                <Link
+                to="/products"
                 className="nav-link nav-link-custom"
                 onClick={closeMenu}
               >
-                Gallery
-              </Link> */}
+                Products
+              </Link>
             </li>
 
             <li className="nav-item">

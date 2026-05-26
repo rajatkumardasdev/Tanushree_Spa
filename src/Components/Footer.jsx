@@ -160,7 +160,7 @@ function Footer() {
 
         {/* Bottom */}
 
-        <hr className="border-secondary my-4" />
+        <hr className="border-secondary my-2" />
 
         <div className="text-center">
 

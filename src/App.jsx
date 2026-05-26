@@ -1,8 +1,6 @@
-import  'react'
-// import Navbar from "./Components/Navbar.jsx"
-// import Footer from "./Components/Footer.jsx"
+import 'react'
 
-import {Routes,Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import MainLayout from "./Layouts/MainLayout";
 
@@ -11,40 +9,29 @@ import Services from "./Pages/Services";
 import About from "./Pages/About";
 // import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
+import Products from "./Pages/Products";
 
 function App() {
 
   return (
     <>
-    <Routes>
+      <Routes>
 
-      <Route path="/" element={<MainLayout />}>
+        <Route path="/" element={<MainLayout />}>
 
-        <Route index element={<Home/>} />
+          <Route index element={<Home />} />
 
-        <Route
-          path="services"
-          element={<Services />}
-        />
+          <Route path="services" element={<Services />} />
 
-        <Route
-          path="about"
-          element={<About />}
-        />
+          <Route path="about" element={<About />}/>
 
-        {/* <Route
-          path="gallery"
-          element={<Gallery />}
-        /> */}
+          <Route path="contact" element={<Contact />}/>
 
-        <Route
-          path="contact"
-          element={<Contact />}
-        />
+          <Route path='products' element={<Products />} />
 
-      </Route>
+        </Route>
 
-    </Routes>
+      </Routes>
     </>
   )
 }
