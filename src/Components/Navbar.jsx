@@ -78,7 +78,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/services"
+                to="services"
                 className="nav-link nav-link-custom"
                 onClick={closeMenu}
               >
@@ -88,7 +88,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/about"
+                to="about"
                 className="nav-link nav-link-custom"
                 onClick={closeMenu}
               >
